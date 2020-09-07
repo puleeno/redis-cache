@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.0.13
+
+- Updated bundled Predis library to v1.1.4
+- Made `redis-cache` a global group for improved metrics on multisite
+- Switched to short array syntax
+- Added `@since` tags to all functions
+- Use `parse_url()` instead of `wp_parse_url()` in drop-in
+- Fixed plugin instance variable name in `wp redis status`
+
+## 2.0.12
+
+- Fixed bytes metrics calculation
+- Fixed an issue with non-standard Predis configurations
+- Improve WordPress Coding Standards
+
 ## 2.0.11
 
 - Fixed an issue in `wp_cache_get_multiple()` when using Predis
